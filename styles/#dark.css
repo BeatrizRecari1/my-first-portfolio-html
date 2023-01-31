@@ -1,0 +1,47 @@
+body { background-color: white !important;}
+
+h1 {
+    font-family: "Shrikhand", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    border: 5px solid blue;
+    box-shadow: 4px 16px 174px -148px rgba(230,17,17,0.39);
+    -webkit-box-shadow: 4px 16px 174px -148px rgba(230,17,17,0.39);
+    -moz-box-shadow: 4px 16px 174px -148px rgba(230,17,17,0.39);
+    aspect-ratio: 1/1;
+}
+
+img.img1 {
+    filter: sepia(180);
+    position: relative;
+    right: 25px;
+}
+
+img.img2 {
+    filter: sepia(180);
+    position: relative;
+    right: 25px;
+}
+
+img.img3 {
+    filter: sepia(180);
+    position: relative;
+    right: 25px;
+}
+
+#info {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,121,9,1) 18%, rgba(0,212,255,1) 100%);
+}
+
+#info p {
+    color: white;
+}
